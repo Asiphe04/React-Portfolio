@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@700&display=swap');
+
+
+:root {
+  --pink : #FF004F;
+  --black: #121212;
+  --grey: #2B2A2A;
+  --white: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -6,6 +19,8 @@
 }
 
 body {
+  background-color: #121212;
+  color: var(--white);
   margin: 0;
   font-family: 'Noto Sans Hebrew', sans-serif;
   -webkit-font-smoothing: antialiased;
