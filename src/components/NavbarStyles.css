@@ -54,9 +54,45 @@ nav{
 }
 
 #mobile{
+    display: none;
     background: transparent;
 }
 #mobile i {
 color: white;
+background: transparent;
+}
 
+@media screen and (max-width: 788px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 60px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: #2B2A2A;
+        padding: 40px 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+    #navbar.active{
+
+        right: 0px;
+    }
+    
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile{
+        display: block;
+    }
+
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
 }
