@@ -1,5 +1,8 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@700&display=swap');
+.App, * {
+  background-color:#121212;
   text-align: center;
+ font-family: 'Noto Sans Hebrew', sans-serif;;
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:#121212;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
