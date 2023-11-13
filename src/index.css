@@ -22,7 +22,7 @@ body {
   background-color: #121212;
   color: var(--white);
   margin: 0;
-  font-family: 'Noto Sans Hebrew', sans-serif;
+  font-family: 'Open Sans',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
