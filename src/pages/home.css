@@ -1,39 +1,44 @@
 .container {
-    background-image: url('https://i.postimg.cc/W1Jp1rQ6/bgclash2.jpg');
+    background-image: url('https://i.postimg.cc/fT76Rcsm/hmmm.png');
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
-}
-.container {
+    background-blend-mode: luminosity;
     display: flex;
-  }
-  
+   
+}
+
   .first-div {
     flex: 1;
     margin-top: 90px;
+    
   }
   
   .img-div {
     flex: 1; 
     text-align: right;
+    margin-right: 90px;
   }
   
 h1{
+
     color: var(--pink);
-    font-size: 60px;
+    font-size: 100px;
 }
 .desc{
+    margin-left: 90px;
     font-size: 30px;
 }
 #role-desc{
     color: #9C9C9C;
+    margin: 20px;
 }
 .btn-projects{
     background-color: var(--pink);
     color: white;
     width: 151px;
     height: 50px;
-    
+    margin: 10px;
 }
 .btn-contact{
     color: white;
@@ -41,4 +46,28 @@ h1{
 height: 50px;
 border: 2px solid var(--pink);
 background: transparent;
+margin: 10px;
 }
+
+.troop{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    filter: brightness(10%);
+    z-index: -1;
+}
+@keyframes brightnessAnimation {
+    0% {
+      filter: brightness(0.2); /* Dark */
+    }
+    50% {
+      filter: brightness(0.8); /* Light */
+    }
+    100% {
+      filter: brightness(0.2); /* Dark */
+    }
+  }
+
+  .troop {
+    animation: brightnessAnimation 4s infinite; 
+  }

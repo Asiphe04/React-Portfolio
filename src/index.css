@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@800&display=swap');
 
 :root {
   --pink : #FF004F;
@@ -22,7 +22,7 @@ body {
   background-color: #121212;
   color: var(--white);
   margin: 0;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
