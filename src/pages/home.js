@@ -20,7 +20,7 @@ function Home(){
      
       <img src='https://i.postimg.cc/h465q5qj/image-removebg-preview.png' alt='Asiphe Ndimlana' className='Home-img'/>
       <img src='https://i.postimg.cc/3JK7V8pY/Avatar-Beta-Minion.webp' alt='Troop' className='troop' id='beta-minion'/>
-      {/* <img src='https://i.postimg.cc/kMsLVx6P/Avatar-Barbarian.webp' alt='Troop' className='troop' id='barbarian'/> */}
+     
       </div>
      
      </div>
