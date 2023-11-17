@@ -1,42 +1,143 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #121212;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.logo{
+  width: 3rem;
+  border-radius: 50%;
+ margin-left: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.home {
+  background-image: url('https://i.postimg.cc/fT76Rcsm/hmmm.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-blend-mode: luminosity;
+  display: flex;
+ 
+}
+
+.first-div {
+  flex: 1;
+  margin-top: 90px;
+  
+}
+
+.img-div {
+  flex: 1; 
+  text-align: right;
+  margin-right: 90px;
+  z-index: 2;
+  position: relative;
+  right: -90px;
+}
+
+h1{
+
+position: relative;
+z-index: 2;
+  color: #FF004F;
+  font-size: 100px;
+ 
+}
+.desc{
+  margin-left: 90px;
+  font-size: 30px;
+  margin-top: 70px;
+}
+#role-desc{
+margin-left: 97px;
+font-size: 30px;
+margin-bottom: 150px;
+font-size: 30px;
+  color: #9C9C9C;
+  position: absolute;
+  z-index: 2;
+}
+.btn-projects{
+position: relative;
+  background-color: #FF004F;
+  color: white;
+  width: 151px;
+  height: 50px;
+  margin: 10px;
+  z-index: 2;
+}
+.btn-contact{
+position: relative;
+  color: white;
+  width: 151px;
+height: 50px;
+border: 2px solid #FF004F;
+background: transparent;
+margin: 10px;
+z-index: 2;
+}
+
+.troop{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  filter: brightness(10%);
+  z-index: -1;
+}
+@keyframes brightnessAnimation {
+  0% {
+    filter: brightness(0.2); /* Dark */
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    filter: brightness(0.8); /* Light */
+  }
+  100% {
+    filter: brightness(0.2); /* Dark */
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.troop {
+  animation: brightnessAnimation 4s infinite; 
+}
+#hog-rider{
+  animation: none;
+  position: absolute;
+  bottom: 370px;
+  left: 150px;
+  z-index: 1;
+  width: 230px;
+  height: 230px;
+}
+#golem{
+  position: absolute;
+  z-index: 1;
+  left: 160px;
+  bottom: 190px;
+  width: 60px;
+  height: 60px;
+}
+#wizard{
+  position: absolute;
+  bottom: 150px;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  left: 490px;
+}
+#beta-minion{
+  z-index: -1;
+  position: relative;
+  right: 270px;
+  bottom: 70px;
+  width: 200px;
+  height: 200px;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
