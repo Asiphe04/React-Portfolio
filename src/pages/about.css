@@ -62,9 +62,15 @@ margin-left: 70px;
     font-weight: 600;
   }
   .arrow-img{
-    position: relative;
-    width: 40px;
-    right: 335px;
+    width: 2.5em;
+    height: 1em;
   }
     
-  
+  .arrow-info{
+
+    margin: 15px;
+    display: flex;
+  }
+  p{
+    margin: 10px;
+  }
