@@ -46,27 +46,27 @@ const Navbar = () => {
             <div className='flex-10'>
             <ul className='flex gap-8 mr-16 text-[25px]'>
             <a href='#Home'>
-            <li className='my-4 py-4'>
+            <li className='my-2 py-2'>
               Home 
                </li>
               </a>
               <a href='#About'>
-            <li className='my-4 py-4'>
+              <li className='my-2 py-2'>
               About 
                </li>
               </a>
               <a href='#Resume'>
-            <li className='my-4 py-4'>
+              <li className='my-2 py-2'>
               Resume 
                </li>
               </a>
               <a href='#Projects'>
-            <li className='my-4 py-4'>
+              <li className='my-2 py-2'>
               Projects 
                </li>
               </a>
               <a href='#Contact'>
-            <li className='my-4 py-4'>
+              <li className='my-2 py-2'>
               Contact 
                </li>
               </a>
