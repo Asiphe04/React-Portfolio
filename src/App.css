@@ -237,12 +237,13 @@ margin-left: 50px;
 }
 .arrow-img{
   width: 2.5em;
-  height: 1em;
+  height: 1.5em;
   margin-right: 20px;
 }
   
 .arrow-info{
-  margin: 15px;
+  
+  margin: 20px;
   display: flex;
   margin-left: 100px;
 }
@@ -257,18 +258,22 @@ margin-left: 50px;
   top: 5px;
 }
 #Earthquake-spell{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   position: relative;
   left: 450px;
   z-index: 1;
-
+bottom: 100px;
 }
-#Barbarian-King{
-  width: 70px;
-  height: 80px;
+#Bomber{
   position: relative;
-  left: 600px;
   z-index: 1;
-  top: 100px;
+  bottom: -80px;
+ left: 120px;
+}
+.details{
+  font-size: 20px;
+}
+.link-to-projects, .link-to-contact{
+  color: #FF004F;
 }
