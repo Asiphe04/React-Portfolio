@@ -274,6 +274,15 @@ bottom: 100px;
 .details{
   font-size: 20px;
 }
-.link-to-projects, .link-to-contact{
+.link-to-projects, .link-to-contact, .link-to-linkedin{
   color: #FF004F;
+}
+
+/* RESUME */
+.Resume {
+  background-image: url('https://i.postimg.cc/FHtvhPcS/resume-bg.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-blend-mode: luminosity; 
 }

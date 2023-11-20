@@ -67,12 +67,12 @@ const About = () => {
                 <div className='arrow-info'>
                   <img src='https://i.postimg.cc/85zGRd2r/Arrow-6.png' className='arrow-img' alt='Arrow'/>
                   <p className='details'>Email: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-                  <p className='details'>ASIPHENDIMLANA40@GMAIL.COM</p>
+                  <p className='details'><a href="mailto:asiphendimlana40@gmail.com">ASIPHENDIMLANA40@GMAIL.COM</a></p>
                 </div>
                 <div className='arrow-info'>
                   <img src='https://i.postimg.cc/85zGRd2r/Arrow-6.png' className='arrow-img' alt='Arrow'/>
                   <p className='details'>LinkedIn: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-                  <p className='details'>https://www.linkedin.com/in/asiphe-ndimlana-045184157/</p>
+                  <p className='details'><a href="https://www.linkedin.com/in/asiphe-ndimlana-045184157/" className='link-to-linkedin'>Asiphe Ndimlana </a></p>
                 </div>
                 <div className='arrow-info'>
                   <img src='https://i.postimg.cc/85zGRd2r/Arrow-6.png' className='arrow-img' alt='Arrow'/>
