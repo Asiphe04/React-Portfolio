@@ -279,10 +279,80 @@ bottom: 100px;
 }
 
 /* RESUME */
-.Resume {
-  background-image: url('https://i.postimg.cc/FHtvhPcS/resume-bg.png');
+#Resume {
+  background-image: url('https://i.postimg.cc/BQW2PvWY/demo2.png');
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center; 
   background-blend-mode: luminosity; 
+}
+
+#skills-div{
+  margin-left: 90px;
+}
+.skill{
+height: 91px;
+border-radius: 101px;
+}
+.custom-line {
+  width: 0px;
+  height: 186.011px;
+  border: 1px solid white; 
+  position: relative;
+  left: 400px;
+}
+.horizontal-line{
+  width: 100px;
+  height: 0px;
+  border: 1px solid white; 
+  position: relative;
+  left: 400px;
+  bottom: 110px;
+  left: 410px;
+}
+.dot{
+  position: relative;
+  left: 390px;
+  bottom: 100px;
+}
+.role-description{
+  width: 30%;
+  position: relative;
+  bottom: 170px;
+  left: 90px;
+}
+
+.circle {
+  background-color: #2B2A2A;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+   text-align: center;
+   position: relative;
+   bottom: 310px;
+   left: 510px;
+}
+
+.sec-education{
+  position: relative;
+  bottom: 316px;
+  
+}
+#wizard-resume{
+  position: relative;
+  top: 300px;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+ right: 800px;
+}
+#Archer{
+  position: relative;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+ left: 280px;
 }
