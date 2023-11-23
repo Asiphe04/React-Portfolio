@@ -1,41 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@800&display=swap');
 
-.App {
-  background-color:#121212;
+::-webkit-scrollbar {
+  display: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #121212;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
   text-align: center;
-
+}
+.logo{
+  width: 3rem;
+  border-radius: 50%;
+ margin-left: 90px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+  background-image: url('https://i.postimg.cc/ydxRgnJy/bgclash2.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-blend-mode: luminosity;
+  display: flex;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.first-div {
+  flex: 1;
+  margin-top: 90px;
+  
+}
+
+.img-div {
+  flex: 1; 
+  text-align: right;
+  margin-right: 90px;
+  z-index: 2;
+  position: relative;
+  right: -90px;
+}
+
+
+h1{
+position: relative;
+z-index: 2;
+  color: #FF004F;
+  font-size: 100px !important;
+ 
+}
+.desc{
+  margin-left: 70px;
+  font-size: 30px;
+  margin-top: 70px;
+}
+#role-desc{
+margin-left: 97px;
+font-size: 30px;
+margin-bottom: 150px;
+font-size: 30px;
+  color: #9C9C9C;
+  position: absolute;
+  z-index: 2;
+}
+#paragraph{
+  margin-bottom: 30px;
+}
+.btn-projects{
+position: relative;
+  background-color: #FF004F;
+  color: white;
+  width: 151px;
+  height: 50px;
+  margin: 10px;
+  z-index: 2;
+  right: 100px;
+}
+.btn-contact{
+position: relative;
+  color: white;
+  width: 151px;
+height: 50px;
+border: 2px solid #FF004F;
+background: transparent;
+margin: 10px;
+z-index: 2;
+margin-bottom: 150px;
+right: 100px;
+}
+
+.troop{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  filter: brightness(10%);
+  z-index: -1;
+}
+@keyframes brightnessAnimation {
+  0% {
+    filter: brightness(0.2); /* Dark */
+  }
+  50% {
+    filter: brightness(0.8); /* Light */
+  }
+  100% {
+    filter: brightness(0.2); /* Dark */
   }
 }
 
-.App-header {
-  background-color:#121212;
-  min-height: 100vh;
+.troop {
+  animation: brightnessAnimation 4s infinite; 
+}
+#hog-rider{
+  animation: none;
+  position: absolute;
+  bottom: 370px;
+  left: 150px;
+  z-index: 1;
+  width: 230px;
+  height: 230px;
+}
+#golem{
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  bottom: 172px;
+  width: 60px;
+  height: 60px;
+}
+#wizard{
+  position: absolute;
+  bottom: 120px;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  left: 390px;
+}
+#beta-minion{
+  z-index: -1;
+  position: absolute;
+  right: 270px;
+  bottom: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+#barbarian{
+  position: absolute;
+  right: 70px;
+  bottom: 490px;
+}
+
+/* About */
+
+#About{
+  background-image: url('https://i.postimg.cc/ZYDccv4q/bgclash.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-blend-mode: luminosity;
   display: flex;
-  flex-direction: column;
+}
+h2{
+  color: #FF004F;
+  font-size: 60px !important;
+  margin-right: 150px !important;
+ 
+}
+
+.about-sec-div{
+  display: flex;
+}
+.right-about-div{
+  margin-top: 100px;
+  margin-right: 100px;
+  width: 100%;
+}
+.left-about-div{
+  width: 100%;
+}
+
+.about-img{
+  height: 300px;
+  width: 300px;
+margin-left: 50px;
+}
+.about-me-paragraph{
+  font-size: 25px;
+}
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 600px;
+  font-size: 14px;
+  margin-left: 80px;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all .15s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.radio-inputs .radio input:checked + .name {
+  background-color: #fff;
+  color: grey !important;
+  font-weight: 600;
+}
+.arrow-img{
+  width: 2.5em;
+  height: 1.5em;
+  margin-right: 20px;
+}
+  
+.arrow-info{
+  
+  margin: 20px;
+  display: flex;
+  margin-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* troops */
+#Valkyrie{
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 150px;
+  z-index: 1;
+  top: 5px;
+}
+#Earthquake-spell{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 450px;
+  z-index: 1;
+bottom: 100px;
+}
+#Bomber{
+  position: relative;
+  z-index: 1;
+  bottom: -80px;
+ left: 120px;
+}
+.details{
+  font-size: 20px;
+}
+.link-to-projects, .link-to-contact, .link-to-linkedin{
+  color: #FF004F;
+}
+
+/* RESUME */
+#Resume {
+  background-image: url('https://i.postimg.cc/BQW2PvWY/demo2.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-blend-mode: luminosity; 
+}
+
+#skills-div{
+  margin-left: 90px;
+}
+.skill{
+height: 91px;
+border-radius: 101px;
+}
+.custom-line {
+  width: 0px;
+  height: 186.011px;
+  border: 1px solid white; 
+  position: relative;
+  left: 400px;
+}
+.horizontal-line{
+  width: 100px;
+  height: 0px;
+  border: 1px solid white; 
+  position: relative;
+  left: 400px;
+  bottom: 110px;
+  left: 410px;
+}
+.dot{
+  position: relative;
+  left: 390px;
+  bottom: 100px;
+}
+.role-description{
+  width: 30%;
+  position: relative;
+  bottom: 170px;
+  left: 90px;
+}
+
+.circle {
+  background-color: #2B2A2A;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+   text-align: center;
+   position: relative;
+   bottom: 310px;
+   left: 510px;
+}
+
+.sec-education{
+  position: relative;
+  bottom: 316px;
+  
+}
+#wizard-resume{
+  position: relative;
+  top: 300px;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+ right: 800px;
+}
+#Archer{
+  position: relative;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+ left: 280px;
+}
+.circle-img{
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ 
+}
+
+
+/* PROJECTS */
+
+#Projects{
+  background-image: url('https://i.postimg.cc/5tnh9DFS/dragontest.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-blend-mode: luminosity; 
+}
+.project-image{
+  width: 100%;
+  border-radius: 15px;
+}
+.project-desc{
+  text-align: left;
+ margin-left: 90px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.javascript{
+  margin: 50px;
 }
