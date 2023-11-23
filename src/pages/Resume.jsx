@@ -20,6 +20,67 @@ const Resume = () => {
       <img src="https://i.postimg.cc/x1wQnKDT/My-SQL-Logo-removebg-preview.png" alt=""  className='skill'/>
       </div>
       <h2 className='text-left my-skills-heading'>PROF. SKILLS</h2>
+      <div className="interests container mx-auto p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-bullhorn fa-2x" aria-hidden="true"></i>
+            <h4>Public Speaking</h4>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-question-circle fa-2x" aria-hidden="true"></i>
+            <h4>Problem-solving</h4>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-users fa-2x" aria-hidden="true"></i>
+            <h4>Team Work</h4>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
+            <h4>Creativity</h4>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-users fa-2x" aria-hidden="true"></i>
+            <h4>Leadership</h4>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-cog fa-2x" aria-hidden="true"></i>
+            <h4>Adaptability</h4>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-tasks fa-2x" aria-hidden="true"></i>
+            <h4>Work Ethic</h4>
+          </div>
+        </div>
+
+        <div className="col-span-1">
+          <div className="icon-box">
+            <i className="fa fa-comments fa-2x" aria-hidden="true"></i>
+            <h4>Communication</h4>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
       </div>
       <div className='mt-12'>
       <div className="radio-inputs">
