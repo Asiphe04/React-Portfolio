@@ -2,8 +2,36 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-      
+    <div id='Contact'>
+
+     <h1 className='text-left ml-12'>LEAVE A MESSAGE</h1> 
+     <form action="">
+      <label>Full Name</label>
+      <br />
+      <input type="text" />
+      <br />
+      <label>Email</label>
+      <br />
+      <input type="email" />
+      <br />
+      <label>Message</label>
+      <br />
+      <input type="text" className='message-input' />
+     </form>
+     <img src='https://i.postimg.cc/T2ZBGvvZ/Avatar-Dragon.webp' alt='Stone' className='troop' id='Dragon'/>
+     <div className="social-icons">
+      <a
+        href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B8h9wTBRuSt2U75xVavKEoA%3D%3D"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-linkedin" id="linkedIn"></i>
+      </a>
+      <a href="https://github.com/Asiphe04" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-github" id="Github"></i>
+      </a>
+    </div>
+  
     </div>
   )
 }

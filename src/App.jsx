@@ -7,6 +7,7 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <About/>
     <Resume/>
     <Projects/>
+    <Contact/>
     <Footer/>
    </div>
   )
