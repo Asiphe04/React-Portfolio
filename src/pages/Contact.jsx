@@ -8,17 +8,17 @@ const Contact = () => {
      <form 
      action="https://formspree.io/f/mjvqqwre"
      method="POST">
-      <label>Full Name</label>
+      <label className='contact-label'>Full Name</label>
       <br />
-      <input type="text" name='text'/>
+      <input type="text" name='text' className='contact-input'/>
       <br />
-      <label>Email</label>
+      <label className='contact-label'>Email</label>
       <br />
-      <input type="email" name="email" />
+      <input type="email" name="email" className='contact-input'/>
       <br />
-      <label>Message</label>
+      <label className='contact-label'>Message</label>
       <br />
-      <input  className='message-input' name="message"/>
+      <input  className='message-input contact-input' name="message" />
       <button className='btn-contact' id='btn-submit-form' type='submit'>Send !</button>
      </form>
      <img src='https://i.postimg.cc/T2ZBGvvZ/Avatar-Dragon.webp' alt='Stone' className='troop' id='Dragon'/>

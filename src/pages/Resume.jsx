@@ -83,7 +83,7 @@ const Resume = () => {
 
       </div>
       <div className='mt-12'>
-      <div className="radio-inputs">
+      <div className="radio-inputs" id='radio-resume'>
      
         <img src='https://i.postimg.cc/Hsr921rR/Avatar-Archer.webp' alt='Troop' className='troop' id='Archer'/>
             <label className="radio">

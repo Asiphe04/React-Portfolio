@@ -10,7 +10,7 @@ const About = () => {
 
       <div className='about-sec-div'>
         <div className='left-about-div'>
-          <h2>LEARN MORE ABOUT ME</h2>
+          <h2 className='about-me-heading ml-12'>LEARN MORE ABOUT ME</h2>
        
           <div className="radio-inputs">
             <label className="radio">
@@ -18,23 +18,24 @@ const About = () => {
                 type="radio"
                 name="radio"
                 checked={activeTab === "about-me"}
+
                 onChange={() => setActiveTab("about-me")}
               />
               <span className="name">About Me</span>
             </label>
-            <label className="radio">
+            <label className="radio ">
               <input
                 type="radio"
                 name="radio"
                 checked={activeTab === "contact-info"}
                 onChange={() => setActiveTab("contact-info")}
               />
-              <span className="name ">Contact info</span>
+              <span className="name">Contact info</span>
             </label>
           </div>
           <div className={activeTab === "about-me" ? 'about-me-details' : 'contact-info'}>
             {activeTab === "about-me" && (
-              <div>
+              <div >
                 <div className='arrow-info'>
                   <img src='https://i.postimg.cc/85zGRd2r/Arrow-6.png' className='arrow-img' alt='Arrow'/>
                   <p className='details'>Full Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
@@ -58,7 +59,7 @@ const About = () => {
               </div>
             )}
             {activeTab === "contact-info" && (
-              <div>
+              <div >
                 <div className='arrow-info'>
                   <img src='https://i.postimg.cc/85zGRd2r/Arrow-6.png' className='arrow-img' alt='Arrow'/>
                   <p className='details'>Cell No: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
