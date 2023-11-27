@@ -5,18 +5,21 @@ const Contact = () => {
     <div id='Contact'>
 
      <h1 className='text-left ml-12'>LEAVE A MESSAGE</h1> 
-     <form action="">
+     <form 
+     action="https://formspree.io/f/mjvqqwre"
+     method="POST">
       <label>Full Name</label>
       <br />
-      <input type="text" />
+      <input type="text" name='text'/>
       <br />
       <label>Email</label>
       <br />
-      <input type="email" />
+      <input type="email" name="email" />
       <br />
       <label>Message</label>
       <br />
-      <input type="text" className='message-input' />
+      <input  className='message-input' name="message"/>
+      <button className='btn-contact' id='btn-submit-form' type='submit'>Send !</button>
      </form>
      <img src='https://i.postimg.cc/T2ZBGvvZ/Avatar-Dragon.webp' alt='Stone' className='troop' id='Dragon'/>
      <div className="social-icons">

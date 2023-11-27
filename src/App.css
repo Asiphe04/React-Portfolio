@@ -397,6 +397,7 @@ border-radius: 101px;
   background-position: center; 
   background-blend-mode: luminosity;
 position: relative;
+height: 750px;
 }
 
 label{
@@ -410,6 +411,9 @@ input{
 height: 50px;
 width: 500px;
 border-radius: 15px;
+font-size: 30px !important;
+margin: 10px !important;
+padding: 10px !important;
 }
 .message-input{
   height: 150px ;
@@ -440,4 +444,10 @@ form{
   position: relative;
  margin: 15px;
  z-index: 2;
+}
+#btn-submit-form{
+  position: absolute;
+  z-index: 1;
+  bottom: -230px;
+  left: 680px;
 }
