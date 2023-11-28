@@ -89,7 +89,7 @@ const Resume = () => {
       <div>
       <h2 className='text-left my-skills-heading'>Achievements</h2>
       <div className='img-container flex' >
-    <img src="https://i.postimg.cc/gk4LX2Bx/Networking-Basics-Badge20231020-29-hvhdj7.png" alt="" className='certificate-img m-3' />
+    <img src="https://i.postimg.cc/pTVmkNS0/Introduction-to-Cybersecurity-Badge20231114-45-5d48m4.png" alt="" className='certificate-img m-3' />
     <img src="https://i.postimg.cc/jjcFBN8s/Operating-Systems-Basics-Badge20231006-29-7ws0e0.png" alt="" className='certificate-img m-3' />
       </div>
       <div className='img-container flex' >
