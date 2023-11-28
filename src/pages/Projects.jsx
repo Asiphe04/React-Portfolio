@@ -46,7 +46,7 @@ const Projects = () => {
           </div>
           <div className="javascript flex">
           <div className="lg:col-span-6">
-            <img src="https://i.postimg.cc/Gtg3vp27/capstone.png" alt="" className='project-image'/>
+            <img src="https://i.postimg.cc/x8vhTBjS/Screenshot-2023-10-19-131154.png" alt="" className='project-image'/>
           
           </div>
           <div className="lg:col-span-6">

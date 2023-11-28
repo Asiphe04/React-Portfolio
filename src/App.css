@@ -384,8 +384,13 @@ border-radius: 101px;
   background-blend-mode: luminosity; 
 }
 .project-image{
-  width: 100%;
+ width: 90em;
+height: 19em;
   border-radius: 15px;
+}
+.certificate-img{
+  width: 250px;
+  height: 200px;
 }
 .project-desc{
   text-align: left;
